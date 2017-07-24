@@ -43,3 +43,9 @@ PynqInverceMatrix2, PynqInverceMatrix3 にあります。
 
 各IP を作成するプロジェクトは
 vivado/2017.2/module/ ディレクトリの下にあります。
+
+## License
+
+Copyright 2017 kino2718
+
+License は [MIT Licence](https://choosealicense.com/licenses/mit/) とします。
