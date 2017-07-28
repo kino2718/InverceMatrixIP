@@ -48,4 +48,4 @@ vivado/2017.2/module/ ディレクトリの下にあります。
 
 Copyright 2017 kino2718
 
-License は [MIT Licence](https://choosealicense.com/licenses/mit/) とします。
+License は [MIT License](https://choosealicense.com/licenses/mit/) とします。
