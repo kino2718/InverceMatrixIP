@@ -44,7 +44,7 @@ PYNQボード(Zynq)で動作確認していますが、他のXILINXのFPGAでも
 但し確認はしていません。
 
 IPs are InverceMatrix2 and InverceMatrix3 in the vivado/2017.2/ip_repo/ directory.
-It corresponds to 2x2, 3x3 matrix respectively.
+They correspond to 2x2, 3x3 matrix respectively.
 The other IPs in ip_repo are submodules for creating InverceMatrix2 and InverceMatrix3 IPs.
 I have checked the IPs with the PYNQ board(Zynq), but they should work with other XILINX FPGAs
 even I haven't check them though.
@@ -59,7 +59,7 @@ make
 対応している Vivado のバージョンはディレクトリ名を見れば分かる通り 2017.2 です。
 今の所ちゃんとmakefileを作っていないので、`make clean` をしないと失敗する場合があります。
 
-To create files in the pynq directory, IPs or Vivado projects,
+To create files in the pynq directory, IPs and Vivado projects,
 In the vivado/2017.2 directory, do
 ```
 make clean
@@ -72,7 +72,7 @@ PYNQ に載せる bitファイルと tclファイルを作成するプロジェ�
 vivado/2017.2/PYNQ/ ディレクトリの
 PynqInverceMatrix2, PynqInverceMatrix3 にあります。
 
-The projects which create the bit and tcl files for PYNQ borad
+The projects which create the bit and tcl files for PYNQ board
 are PynqInverceMatrix2, PynqInverceMatrix3 in the vivado/2017.2/PYNQ/ directory.
 
 各IP を作成するプロジェクトは
